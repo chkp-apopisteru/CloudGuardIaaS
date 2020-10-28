@@ -1,6 +1,6 @@
 # ARM CloudGuard IaaS Scale Set with instances' public IPs and external load balancer public IP allocated from an existing public IP prefix
 
-This directory contains the CloudGuard IaaS VMSS template derived from the `vmss-v2` Check Point CloudGuard IaaS Scale Set Marketplace template version `20191003`.
+This directory contains the CloudGuard IaaS VMSS template derived from the `vmss-v2` [Check Point CloudGuard IaaS](https://azuremarketplace.microsoft.com/en-us/marketplace/apps/checkpoint.vsec) Scale Set Marketplace template version `20191003`.
 
 This template adds the ability to allocate IP addresses for instances and for external load balancer from an existing public IP prefix - the public IP prefix for instances and for external load balancer could be the same or different, defined in the resource group allocated for VMSS or in a different resource group.
 
